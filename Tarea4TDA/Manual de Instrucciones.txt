@@ -1,0 +1,36 @@
+Para comenzar con el proyecto debe seguir los siguientes pasos:
+
+*Descargar compilador Visual Studio Code
+**Ir a https://code.visualstudio.com
+**Click en Download for Windows
+**Instalar despues de descargar.
+
+*Ir a Oracle
+** Crear cuenta en Oracle
+**Descargar Cartera o Wallet
+
+*Instalar Python
+**Ir a https://pypi.org/project/pip/
+**Abrir terminal
+**Digitar pip --version para windows o pip3 --version para mac
+**Digitando pip list aparecera todos los paquetes instalados en el computador
+**Al ver que no aparece el pip de python se debe digitar python -m pip install cx_Oracle --upgrade --user
+Esto es para instalar python y poder usar la accion para importar oracle donde se usa la base de datos.
+**Digitar nuevamente pip list para comprobar los paquetes instalados
+
+*Descargar Oracle
+**  Ir a https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html
+**Extraer la libreria en una carpeta que se usara solo para eso, por ejemplo C:\oracle\instantclient_19_9
+
+*Abrir visual studio y hacer correr una aplicacion, abriendo un archivo de ejemplo como "example.py" 
+Si el icono cambia y el compilador detecta que el programa es python es porque esta instalado correctamente
+
+*Beautifultable
+Esto es opcional, es para hacer los menus de forma mas ordenada.
+**Ir a https://pypi.org/project/beautifultable/
+**Abrir terminal
+**Copiar codigo de pagina donde dice "Installation" python3 -m pip install beautifultable
+**Ejecutar el codigo
+**Ejecutar pip list para verificar la version de beautifultable instalada.
+
+Con estos pasos ya puede realizar, revisar o modificar cualquier codigo en python con sql.
